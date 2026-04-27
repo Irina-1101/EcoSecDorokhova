@@ -56,24 +56,25 @@ border-radius: 10px;
 .chart {
 display: flex;
 align-items: flex-end;
-gap: 12px;
-height: 220px;
-margin-top: 20px;
-margin-bottom: 40px; 
+gap: 20px;
+height: 260px;
+margin-top: 30px;
+}
+
+.bar-wrap {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .bar {
 width: 50px;
 background: linear-gradient(180deg, #3b82f6, #2563eb);
 border-radius: 8px 8px 0 0;
-position: relative;
 }
 
-.bar span {
-display: block;
-margin-top: 8px;
-text-align: center;
+.bar-wrap span {
+margin-top: 10px;
 font-size: 13px;
 color: #1e293b;
-position: static;
 }
