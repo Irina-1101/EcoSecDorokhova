@@ -59,6 +59,7 @@ align-items: flex-end;
 gap: 12px;
 height: 220px;
 margin-top: 20px;
+margin-bottom: 40px; 
 }
 
 .bar {
@@ -69,10 +70,10 @@ position: relative;
 }
 
 .bar span {
-position: absolute;
-bottom: -25px;
-width: 100%;
+display: block;
+margin-top: 8px;
 text-align: center;
-font-size: 12px;
-color: #334155;
+font-size: 13px;
+color: #1e293b;
+position: static;
 }
