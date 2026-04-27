@@ -1,35 +1,78 @@
 body {
 margin: 0;
 font-family: 'Segoe UI', sans-serif;
-background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
-color: #fff;
+background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+color: #1e293b;
 }
 
 header {
-background: rgba(0,0,0,0.6);
+background: #ffffff;
 padding: 15px;
 text-align: center;
+box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
 nav a {
-color: #00e6ff;
+color: #2563eb;
 margin: 0 10px;
 text-decoration: none;
-font-weight: bold;
+font-weight: 600;
+}
+
+nav a:hover {
+text-decoration: underline;
 }
 
 .card {
-background: rgba(255,255,255,0.1);
-backdrop-filter: blur(10px);
-max-width: 800px;
+background: white;
+max-width: 900px;
 margin: 40px auto;
 padding: 30px;
-border-radius: 15px;
-box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+border-radius: 14px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+color: #0f172a;
+}
+
+h2 {
+color: #334155;
+margin-top: 25px;
+}
+
+ul li {
+margin-bottom: 8px;
 }
 
 iframe {
 width: 100%;
 height: 600px;
 border: none;
+border-radius: 10px;
+}
+
+/* графік */
+.chart {
+display: flex;
+align-items: flex-end;
+gap: 12px;
+height: 220px;
+margin-top: 20px;
+}
+
+.bar {
+width: 50px;
+background: linear-gradient(180deg, #3b82f6, #2563eb);
+border-radius: 8px 8px 0 0;
+position: relative;
+}
+
+.bar span {
+position: absolute;
+bottom: -25px;
+width: 100%;
+text-align: center;
+font-size: 12px;
+color: #334155;
 }
