@@ -52,12 +52,12 @@ border: none;
 border-radius: 10px;
 }
 
-/* графік */
+/* 🔥 ГРАФІК */
 .chart {
 display: flex;
 align-items: flex-end;
-gap: 20px;
-height: 260px;
+gap: 25px;
+height: 250px;
 margin-top: 30px;
 }
 
@@ -71,6 +71,11 @@ align-items: center;
 width: 50px;
 background: linear-gradient(180deg, #3b82f6, #2563eb);
 border-radius: 8px 8px 0 0;
+transition: 0.3s;
+}
+
+.bar:hover {
+transform: translateY(-5px);
 }
 
 .bar-wrap span {
